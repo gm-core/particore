@@ -1,0 +1,11 @@
+sys = part_system_create();
+part = pt_new();
+pt_shape(pt_shape_flare);
+pt_size(.5, .5);
+pt_color(c_red, c_yellow, c_blue);
+pt_life(100, 200);
+pt_blend(true);
+pt_speed(1);
+pt_direction(PT.Any);
+pt_orientation(PT.Relative);
+pt_alpha(1, .8, 0);
