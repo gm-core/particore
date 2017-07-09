@@ -150,7 +150,7 @@ var part = pt_new();
 pt_step(stepPart);
 ```
 
-### `pt_death(deathPart, optionalDeathCount)
+### `pt_death(deathPart, optionalDeathCount)`
 
 Shorthand for `part_type_death`. Only the first argument is required.
 
