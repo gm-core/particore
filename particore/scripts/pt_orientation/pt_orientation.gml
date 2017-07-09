@@ -14,11 +14,16 @@ var relative = false;
 
 if (argument[0] != PT.Any && argument[0] != PT.Relative) {
     minDir = argument[0];
-    maxDir = argument[1];
-    
+    maxDir = minDir;
+	
+	if (argument_count > 1) {
+		maxDir = argument[1];
+	}
+
     if (argument_count > 2) {
         incr = argument[2];
     }
+
     if (argument_count > 3) {
         wiggle = argument[3];
     }

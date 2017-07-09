@@ -4,8 +4,15 @@
 /// @param optionalIncr
 /// @param optionalWiggle
 
+var minSize = argument[0];
+var maxSize = minSize;
 var inc = 0;
 var wiggle = 0;
+
+if (argument_count > 1) {
+	maxSize = argument[1];
+}
+
 if (argument_count > 2) {
     inc = argument[2];
 }
